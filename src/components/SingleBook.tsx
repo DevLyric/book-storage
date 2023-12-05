@@ -1,7 +1,7 @@
 interface Props {
   title: string;
   description: string;
-  price: number;
+  price: string;
 }
 
 function SingleBook({ title, description, price }: Props) {
